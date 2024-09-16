@@ -2,4 +2,4 @@
   from = "/*"
   to = "/home"
   status = 200
-   force = true
+  force = true
