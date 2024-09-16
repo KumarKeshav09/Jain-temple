@@ -1,5 +1,10 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/index.js"
   status = 200
   force = true

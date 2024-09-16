@@ -19,7 +19,7 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
-netlify.toml
+# netlify.toml
 
 # Visual Studio Code
 .vscode/*
