@@ -50,7 +50,7 @@ import { BlogDetailComponent } from './blog-detail/blog-detail.component';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [], 
   bootstrap: [AppComponent]
 })
 export class AppModule { }
