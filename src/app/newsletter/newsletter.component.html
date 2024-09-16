@@ -1,0 +1,14 @@
+<div class="info_form ">
+  <h4>
+    NEWSLETTER
+  </h4>
+  <form  (ngSubmit)="onsubmit(myform)" #myform="ngForm">
+    <div class="form-group col-md-6">
+      <input type="email" class="form-control" name="email" ngModel id="inputEmail4" placeholder="Email id">
+    </div>
+    <button type="submit">
+      Subscribe
+    </button>
+  </form>
+
+</div>

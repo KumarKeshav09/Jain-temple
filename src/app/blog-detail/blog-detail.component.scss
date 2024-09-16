@@ -1,0 +1,44 @@
+.product-detail {
+    padding: 3rem 6rem;
+  }
+  .product-detail .productDetailMain h1 {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  .aboutProductMain {
+    display: flex;
+  }
+  .aboutProductMain .productDetailMainimg {
+    margin: 1rem;
+    width: 95%;
+    border-radius: 2rem;
+  }
+  
+  .aboutProductMain .aboutProducttextDiv {
+    font-size: 1.5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .aboutProductMain .aboutProducttextDiv h2{
+    font-weight: 600;
+      margin-bottom: 1rem;
+  }
+  
+  .aboutProductInfoSection {
+    padding: 3rem 6rem;
+  }
+  .aboutProductInfoSection .aboutProductInfoSectionMain h3 {
+    font-weight: 700;
+    font-size: 2rem;
+   
+  }
+  .aboutProductInfoSection .aboutProductInfoSectionMain p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: black;
+    margin-top: 1rem;
+  
+  }

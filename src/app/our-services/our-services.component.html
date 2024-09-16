@@ -1,0 +1,27 @@
+<section class="service_section layout_padding">
+  <div class="container-fluid">
+    <div class="heading_container">
+      <h2>
+        Our Services
+      </h2>
+      <p>
+      </p>
+    </div>
+<!-- <h3>{{titlevar.servicetitle}}</h3> -->
+    <div class="service_container"  >
+      <div class="box" *ngFor="let ele of servicevar">
+        <div class="img-box">
+          <img [src]="ele.photo" alt="">
+        </div>
+        <div class="detail-box">
+          <h5>{{ele.title}}
+          </h5>
+          <p>
+           {{ele.discription}}
+          </p>
+        </div>
+      </div>
+</div>
+  </div>
+</section>
+<!-- <app-newsletter></app-newsletter> -->

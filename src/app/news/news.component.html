@@ -1,0 +1,35 @@
+<section class="layout_padding">
+  <div class="blog ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="titlepage text_align_center">
+            <h2>Latest <span class="blue whitebg">News</span></h2>
+            <p *ngFor="let  ele of titlevar">
+              {{ele.newstitle}}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 m-5" *ngFor="let ele of newsdata">
+          <div class="blog-box">
+            <figure>
+              <img src={{ele.photo}} width="500" height="400" alt="#" />
+              <div class="date">
+                <h3>{{ele.date}}</h3>
+              </div>
+            </figure>
+            <div class="blog_text">
+              <h3>{{ele.tittle}}</h3>
+              <div class="comment" style="color: blue;">
+                {{ele.reporterName}}
+              </div>
+              <p>{{ele.discription}}.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
